@@ -1,0 +1,53 @@
+type: ItemTurret 
+name: Streaker
+description: A turret which creates a massive beam of bullets with its blazing firerate.
+reload: 0.3
+shootCone: 11
+inaccuracy: 12.2
+rotateSpeed: 2
+velocityRnd: 0.4
+maxAmmo: 300
+heatColor: ff7f31
+size: 2
+range: 255
+coolantMultiplier: 3
+health: 800
+shootSound: shootBig
+outlineIcon: false
+targetInterval: 1.2
+recoil: 2
+recoilTime: 17
+shootX: 1
+ammoTypes: {
+  scrap: {
+    type: BasicBulletType 
+    damage: 5
+    ammoMultiplier: 19
+    reloadMultiplier: 1
+    shootEffect: shootSmall 
+    speed: 8
+    lifetime: 44
+    pierce: true
+    width: 5
+  }
+  metaglass: {
+    type: BasicBulletType 
+    damage: 8
+    ammoMultiplier: 88
+    reloadMultiplier: 2.2
+    shootEffect: shootSmall 
+    speed: 8
+    lifetime: 44
+    pierce: true
+    width: 5
+  }
+}
+requirements: [
+  graphite/40
+  copper/120
+  lead/100
+  silicon/100
+  titanium/80
+]
+research: scorch
+category: turret

@@ -1,0 +1,26 @@
+type: pump
+description: Takes a large amount of fluid from any source.
+health: 1800
+name: Array Pump
+size: 4
+
+hasLiquids: true
+hasPower: true
+liquidCapacity: 200
+
+requirements: [
+  copper/350
+  graphite/175
+  titanium/200
+  silicon/225
+  metaglass/180
+  thorium/80
+  lead/275
+]
+
+consumes: {
+     power: 4.216666666666667
+}
+pumpAmount: 0.4395833333333333
+category: liquid
+research: impulse-pump

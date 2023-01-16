@@ -1,0 +1,32 @@
+type: genericCrafter
+health: 360
+name: Metaglass Furnace
+size: 3
+
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 55
+
+requirements: [
+  copper/125
+  graphite/80
+  titanium/40
+  silicon/45
+  metaglass/25
+]
+
+consumes: {
+     power: 3.3
+     items: {
+        items: [
+            sand/12
+            lead/11
+        ]
+    }
+}
+outputItem: metaglass/15
+craftTime: 100
+craftEffect: melting
+category: crafting
+research: kiln

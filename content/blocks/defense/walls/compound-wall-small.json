@@ -1,0 +1,27 @@
+{
+  "type": "Wall",
+  "name": "Compound Wall",
+  "category": "defense",
+  "health": 1280,
+  "absorbLasers": true,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "surge-alloy",
+      "amount": 12
+    },
+    {
+      "item": "thorium",
+      "amount": 18
+    },
+    {
+      "item": "silicon",
+      "amount": 8
+    },
+    {
+      "item": "plastanium",
+      "amount": 6
+    }
+  ],
+  "research": "surge-wall"
+}

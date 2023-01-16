@@ -1,0 +1,24 @@
+type: ConsumeGenerator
+health: 370
+size: 2
+hasLiquid: true
+powerProduction: 1.56
+liquidCapacity: 30
+solid: true
+ambientSound: smelter
+ambientSoundVolume: 0.6
+requirements: [
+  copper/55
+  silicon/20
+  graphite/10
+  titanium/20
+  lead/35
+  metaglass/10
+]
+consumes: {
+      liquid: 
+       slag/0.2
+}
+
+research: combustion-generator
+category: power

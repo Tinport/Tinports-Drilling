@@ -1,0 +1,60 @@
+{
+  "type": "Drill",
+  "name": "Ring Drill",
+  "category": "production",
+  "health": 800,
+  "tier": 7,
+  "drillTime": 140,
+  "size": 4,
+  "drawMineItem": true,
+  "drawRim": true,
+  "heatColor": "ff5512ff",
+  "rotateSpeed": 6,
+  "updateEffect": "pulverizeSmall",
+  "itemCapacity": 30,
+  "liquidCapacity": 20,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidBoostIntensity": "1.86",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 120
+    },
+    {
+      "item": "silicon",
+      "amount": 80
+    },
+    {
+      "item": "titanium",
+      "amount": 80
+    },
+    {
+      "item": "lead",
+      "amount": 110
+    },
+    {
+      "item": "thorium",
+      "amount": 60
+    },
+    {
+      "item": "graphite",
+      "amount": 35
+    },
+    {
+      "item": "plastanium",
+      "amount": 25
+    }
+
+  ],
+  "consumes": {
+    "power": 3.66666666666666,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.18,
+      "booster": true,
+      "optional": true
+    }
+  },
+  "research": "blast-drill"
+}

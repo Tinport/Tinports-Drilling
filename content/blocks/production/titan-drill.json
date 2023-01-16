@@ -1,0 +1,24 @@
+{
+    "type":"Drill",
+    "name":"Titan Drill",
+    "category": "production",
+    "health": 160,
+    "tier": 3,
+    "drillTime": 280,
+    "size": 2,
+    "drawMineItem": true,
+    "requirements": [
+      {"item": "copper","amount": 22},
+      {"item": "graphite","amount": 12},
+      {"item": "titanium","amount": 8}
+    ],
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.08,
+            "booster": true,
+            "optional": true
+        }
+    },
+    "research": "pneumatic-drill"
+}

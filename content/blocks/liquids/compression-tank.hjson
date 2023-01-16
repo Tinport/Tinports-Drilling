@@ -1,0 +1,23 @@
+type: liquidRouter
+description: Stores a gigantic amount of liquid with very little space, but is incredibly expensive.
+health: 1800
+name: Compression Tank
+floating: true
+liquidPadding: 3
+size: 3
+
+hasLiquids: true
+liquidCapacity: 4500
+
+requirements: [
+  copper/450
+  graphite/250
+  titanium/250
+  silicon/200
+  metaglass/300
+  thorium/125
+  lead/350
+  charger-alloy/150
+]
+category: liquid
+research: liquid-tank

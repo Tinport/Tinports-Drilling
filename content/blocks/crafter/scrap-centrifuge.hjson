@@ -1,0 +1,34 @@
+type: genericCrafter
+description: Melts a large amount of scrap in a very short time to create slag and sand.
+health: 420
+name: Scrap Centrifuge
+size: 2
+
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 50
+liquidCapacity: 96
+
+requirements: [
+  copper/80
+  graphite/50
+  titanium/35
+  silicon/60
+  metaglass/20
+]
+
+consumes: {
+     power: 4.216666666666667
+     items: {
+        items: [
+            scrap/5
+        ]
+    }
+}
+outputItem: sand/1
+outputLiquid: slag/0.8
+craftTime: 15
+craftEffect: melting
+category: crafting
+research: kiln

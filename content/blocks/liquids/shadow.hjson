@@ -1,0 +1,10 @@
+type: Block
+description: haha black
+health: 9999
+name: Shadow
+size: 2
+
+requirements: [
+   coal/1
+]
+category: liquid

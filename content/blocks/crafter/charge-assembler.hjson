@@ -1,0 +1,33 @@
+type: genericCrafter
+health: 330
+name: Charge Assembler
+description: Constructs a brittle, however tough alloy.
+size: 2
+
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity:15
+
+requirements: [
+  copper/90
+  graphite/60
+  titanium/25
+  silicon/40
+]
+
+consumes: {
+     power: 0.8
+     items: {
+        items: [
+            copper/3
+            titanium/2
+            lead/3
+        ]
+    }
+}
+outputItem: charger-alloy/2
+craftTime: 95
+craftEffect: melting
+category: crafting
+research: graphite-press

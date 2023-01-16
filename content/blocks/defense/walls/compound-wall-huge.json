@@ -1,0 +1,27 @@
+{
+  "type": "Wall",
+  "name": "Huge Compound Wall",
+  "category": "defense",
+  "health": 11520,
+  "absorbLasers": true,
+  "size": 3,
+  "requirements": [
+    {
+      "item": "surge-alloy",
+      "amount": 108
+    },
+    {
+      "item": "thorium",
+      "amount": 162
+    },
+    {
+      "item": "silicon",
+      "amount": 72
+    },
+    {
+      "item": "plastanium",
+      "amount": 54
+    }
+  ],
+  "research": "large-compound-wall"
+}

@@ -1,0 +1,20 @@
+type: ItemBridge
+size: 1
+health: 110
+bufferSize: 16
+timerAccept: 1
+transportTime: 4
+range: 5
+hasItems: true
+destructible: true
+breakable: true
+rebuildable: true
+placeablePlayer: true
+itemCapacity: 12
+conveyorPlacement: true
+category: distribution
+research: bridge-conveyor
+requirements: [
+ charger-alloy/6
+  silicon/3
+]

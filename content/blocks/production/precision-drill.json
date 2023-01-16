@@ -1,0 +1,39 @@
+{
+  "type": "Drill",
+  "name": "Precision Drill",
+  "description": "A slow but incredibly precise drill, capable of mining even the toughest resources at a slow pace.",
+  "category": "production",
+  "drawRim": true,
+  "heatColor": "ff5512ff",
+  "health": 400,
+  "rotateSpeed": 3,
+  "tier": 7,
+  "drillTime": 800,
+  "liquidBoostIntensity": "1.67",
+  "size": 3,
+  "drawMineItem": true,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 55
+    },
+    {
+      "item": "lead",
+      "amount": 45
+    },
+    {
+      "item": "graphite",
+      "amount": 25
+    }
+  ],
+  "consumes": {
+    "power": 0.4166666666666667,
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.14,
+      "booster": true,
+      "optional": true
+    }
+  },
+  "research": "mechanical-drill"
+}

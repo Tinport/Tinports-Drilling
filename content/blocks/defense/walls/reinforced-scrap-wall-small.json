@@ -1,0 +1,22 @@
+{
+    "type":"Wall",
+    "name":"Scrap Wall",
+    "category": "defense",
+    "health": 520,
+    "size": 1,
+  "requirements": [
+    {
+      "item": "scrap",
+      "amount": 12
+    },
+    {
+      "item": "copper",
+      "amount": 8
+    },
+    {
+      "item": "titanium",
+      "amount": 4
+    }
+  ],
+    "research": "titanium-wall"
+}

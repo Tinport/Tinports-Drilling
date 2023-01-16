@@ -1,0 +1,35 @@
+type: genericCrafter
+health: 520
+name: Silicon Blaster
+description: Superheats coal and sand via blasting to form large amounts of silicon.
+size: 3
+
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 125
+
+requirements: [
+  copper/270
+  lead/180
+  graphite/110
+  titanium/80
+  silicon/65
+  thorium/35
+]
+
+consumes: {
+     power: 5.366666666666667
+     items: {
+        items: [
+            sand/25
+            coal/15
+            blast-compound/2
+        ]
+    }
+}
+outputItem: silicon/33
+craftTime: 140
+craftEffect: melting
+category: crafting
+research: silicon-crucible

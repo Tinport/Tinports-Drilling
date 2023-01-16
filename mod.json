@@ -1,0 +1,8 @@
+{
+    "name":"tins-drilling",
+    "displayName":"Tinport's Drilling",
+    "author":"Tinport",
+    "description":"A basic hjson/json mod made by me, has basic things such as crafters and i dont know.",
+    "version":"0.0.1",
+    "minGameVersion":"140"
+}

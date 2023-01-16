@@ -1,0 +1,55 @@
+type: ItemTurret 
+name: Piercer
+description: A moderately sized turret with a incredibly heavy cannon capable of piercing everything.
+reload: 160
+shootCone: 0.4
+inaccuracy: 0.8
+rotateSpeed: 2
+velocityRnd: 0.2
+maxAmmo: 22
+heatColor: ff7f31
+size: 3
+range: 385
+coolantMultiplier: 3
+health: 180
+shootSound: shootBig
+outlineIcon: false
+targetInterval: 1.2
+ammoPerShot: 3
+recoil: 9
+recoilTime: 88
+shootX: 1
+ammoTypes: {
+  plastanium: {
+    type: BasicBulletType 
+    damage: 286
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    shootEffect: shootSmall 
+    speed: 17
+    lifetime: 28
+    pierce: TRUE
+    width: 8
+  }
+  surge-alloy: {
+    type: BasicBulletType 
+    damage: 411
+    ammoMultiplier: 2
+    reloadMultiplier: 0.8
+    shootEffect: shootSmall 
+    speed: 18
+    lifetime: 29
+    pierce: true
+    width: 8
+  }
+}
+requirements: [
+  plastanium/60
+  titanium/120
+  thorium/90
+  copper/350
+  lead/275
+  graphite/125
+]
+research: ripple
+category: turret

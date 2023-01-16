@@ -1,0 +1,14 @@
+type: Conveyor
+name: Charger Conveyor
+size: 1
+health: 130
+speed: 0.13
+displayedSpeed: 20
+junctionReplacement: junction
+bridgeReplacement: charger-bridge
+requirements: [
+ charger-alloy/2
+ silicon/1
+]
+research: titanium-conveyor
+category: distribution

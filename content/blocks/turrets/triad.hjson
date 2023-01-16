@@ -1,0 +1,52 @@
+type: ItemTurret 
+name: Triad
+description: A quick-firing turret that deals a decent amount of damage.
+reload: 2.6
+shootCone: 6
+inaccuracy: 12.3
+rotateSpeed: 4
+velocityRnd: 0.5
+maxAmmo: 60
+heatColor: ff7f31
+size: 3
+range: 355
+coolantMultiplier: 3
+health: 2130
+shootSound: shootBig
+outlineIcon: false
+targetInterval: 1.2
+recoil: 4
+recoilTime: 88
+shootX: 1
+ammoTypes: {
+  graphite: {
+    type: BasicBulletType 
+    damage: 36
+    ammoMultiplier: 18
+    reloadMultiplier: 1
+    shootEffect: shootSmall 
+    speed: 10
+    lifetime: 35
+    pierce: false
+    width: 12
+  }
+  silicon: {
+    type: BasicBulletType 
+    damage: 44
+    ammoMultiplier: 24
+    reloadMultiplier: 1.3
+    shootEffect: shootSmall 
+    speed: 12
+    lifetime: 35
+    pierce: false
+    width: 12
+  }
+}
+requirements: [
+  titanium/60
+  silicon/40
+  copper/80
+  lead/60
+]
+research: lancer
+category: turret

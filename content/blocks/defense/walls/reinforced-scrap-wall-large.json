@@ -1,0 +1,22 @@
+{
+    "type":"Wall",
+    "name":"Large Scrap Wall",
+    "category": "defense",
+    "health": 2080,
+    "size": 2,
+  "requirements": [
+    {
+      "item": "scrap",
+      "amount": 48
+    },
+    {
+      "item": "copper",
+      "amount": 32
+    },
+    {
+      "item": "titanium",
+      "amount": 16
+    }
+  ],
+    "research": "reinforced-scrap-wall-small"
+}
